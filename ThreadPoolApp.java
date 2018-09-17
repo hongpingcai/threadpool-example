@@ -1,10 +1,10 @@
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 /**
- * Write a description of class ThreadPoolApp here.
+ * Class ThreadPoolApp here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Hongping Cai)
+ * @version (17/09/2018)
  */
 public class ThreadPoolApp
 {
@@ -22,10 +22,11 @@ public class ThreadPoolApp
         System.exit(0); // exit program
     }
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * The main method for running the program
+     * 
+     * @param  args  two arguments are expected
+     *               The 1st: number of jobs
+     *               The 2nd: number of Threads
      */
     public static void main(String [] args)
     {
