@@ -18,7 +18,7 @@ public class Job implements Runnable {
         try {
             Thread.sleep((int)(1000));
         } catch (InterruptedException e) {
-            //no catching as example shoule not experince interruptions
+            //no catching as example should not experince interruptions
         }
         System.out.println("Job: " + jobNumber + " is ending in Thread "
             + Thread.currentThread().getName());
